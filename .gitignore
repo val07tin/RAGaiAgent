@@ -12,4 +12,15 @@ wheels/
 #Environment Variables
 .env
 
-.json
+*.json
+
+#Qdrant /vector DB local storage
+*.dat
+*.lock
+*.info
+*.wal
+*.log
+*mmap
+*.versions
+*.mappings
+qdrant_storage/
